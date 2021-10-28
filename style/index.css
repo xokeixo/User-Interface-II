@@ -1,1 +1,23 @@
 /* Add CSS styling here */
+* {
+    border: 1px solid palevioletred;
+/* Navigation styling starts heere */
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.nav-right {
+    margin-left: 37%;
+    padding: 1%;
+}
+h1 {
+    font-size: 1.3rem;
+    color: palevioletred;
+}
+.item {
+    font-size: 1.3rem;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20%;
+}
