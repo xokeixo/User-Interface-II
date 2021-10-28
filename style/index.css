@@ -65,6 +65,7 @@ nav {
 .links {
     width: 50%;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .about, .contact, .projects, .home {
@@ -74,7 +75,6 @@ nav {
     border-radius: 20%;
     color: white;
     background-color: rosybrown;
-    margin-left: 10%;
 }
 h2 {
     font-size: 6rem;
