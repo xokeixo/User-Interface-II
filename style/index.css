@@ -3,21 +3,36 @@
     border: 1px solid palevioletred;
 /* Navigation styling starts heere */
 }
-.container {
-    display: flex;
-    flex-direction: row;
-}
-.nav-right {
-    margin-left: 37%;
-    padding: 1%;
-}
 h1 {
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: palevioletred;
+}
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.top-left{
+    margin-right: 50%;
+}
+.top-right{
+    margin-left: 12%;
 }
 .item {
     font-size: 1.3rem;
     background-color: blueviolet;
     color: white;
-    border-radius: 20%;
+}
+a:link {
+    text-decoration: none;
+}
+/* bottom half of the  */
+.top-img {
+    width: 80%;
+    margin: 0 10%;
+}
+.containter {
+    display: flex;
+    flex-direction: row;
 }
