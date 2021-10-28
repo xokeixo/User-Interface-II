@@ -28,11 +28,15 @@ a:link {
     text-decoration: none;
 }
 /* bottom half of the  */
+.parent {
+    display: flex;
+    flex-flow: row wrap;
+}
+.pic {
+    width: 20%;
+    height: 20%;
+}
 .top-img {
     width: 80%;
     margin: 0 10%;
-}
-.containter {
-    display: flex;
-    flex-direction: row;
 }
