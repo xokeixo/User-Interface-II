@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+   
 }
 html {
     font-size: 60%;
@@ -37,10 +37,12 @@ body {
     background-color: gainsboro;
     line-height: 1.5;
     color: purple;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 h1 {
     color: rosybrown;
     font-size: 6rem;
+}
 }
 button {
     font-size: 1.6rem;
@@ -65,14 +67,14 @@ nav {
     display: flex;
     align-items: center;
 }
-.about, .contact, .projects {
+.about, .contact, .projects, .home {
     text-align: center;
     width: 10%;
     font-size: 2rem;
     border-radius: 20%;
     color: white;
     background-color: rosybrown;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 h2 {
     font-size: 6rem;
@@ -80,6 +82,7 @@ h2 {
 
 /*top section styling*/
 #top {
+    display: flex;
     background-image: url("https://picsum.photos/536/354");
     background-repeat: no-repeat;
     background-size:contain;
@@ -87,8 +90,10 @@ h2 {
     height: 90vh;
     background-position: bottom;
     justify-content: center;
-    align-items: center;
     text-align: center;
+}
+#top h2, #top button {
+    margin-top: 35%;
 }
 #top button {
     border: 2px solid gold;
@@ -96,6 +101,7 @@ h2 {
     color: white;
     transition: 2s;
     margin-bottom: 90%;
+    padding: 10%;
 }
 #top button:hover {
     background-color: blueviolet;
@@ -119,4 +125,20 @@ h2 {
 .pic {
     width: 30%;
     height: 20%;
+}
+
+/* footer styling section */
+footer {
+    background-color: beige;
+}
+.contact-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a {
+    color: white;
+    background-color: rosybrown;
+    border-radius: 10%;
+    padding: 2%;
 }
