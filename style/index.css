@@ -66,6 +66,9 @@ nav {
     justify-content: center;
     align-items: center;
 }
+.links a {
+    text-decoration: none;
+}
 .about, .contact, .projects, .home {
     text-align: center;
     width: 10%;
@@ -136,14 +139,32 @@ h2 {
 footer {
     background-color: beige;
 }
-.contact-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 footer a {
     color: white;
     background-color: rosybrown;
     border-radius: 10%;
     padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    justify-content: space-around;
+    height: 10%;
+}
+footer a:hover {
+    background-color: beige;
+    color: rosybrown;
+    transition: 2s;
+}
+.fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    width: 5%;
+    height: 10%;
 }

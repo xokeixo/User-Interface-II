@@ -55,6 +55,9 @@ nav {
     top: 0
     z-index: 999%;
 }
+.links a {
+    text-decoration: none;
+}
 .name {
     width: 50%;
 }
@@ -89,28 +92,77 @@ ul {
 }
 
 /* contact me section styling */
-.contact-me {
+.container {
     display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
 }
 .in-touch {
-    margin-right: 0%;
     width: 30%;
+    padding: 5%;
 }
 .find-me {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 5%;
 }
+.find-me a:hover {
+    color: rosybrown;
+    background: gainsboro;
+    transition: 2s;
+}
+.link {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+}
+.linkOne, .linkTwo, .linkThree, .linkFour {
+    background-color: rosybrown;
+    padding: 5%;
+    margin: auto;
+    border-radius: 5%;
+    width: 30%;
+    height: 30%;
+    text-decoration: none;
+}
+
+
 /* footer styling section */
 footer {
     background-color: beige;
-}
-.contact-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 footer a {
     color: white;
     background-color: rosybrown;
     border-radius: 10%;
     padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    justify-content: space-around;
+    height: 10%;
+}
+footer a:hover {
+    background-color: beige;
+    color: rosybrown;
+    transition: 2s;
+}
+.fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    width: 5%;
+    height: 10%;
 }

@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -86,25 +87,7 @@ p {
 h2 {
     text-align: center;
     font-size: 4rem;
-}
-ul {
-    text-align: center;
-}
-
-/* image styling section */
-.photos {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 10px;
-}
-.pic {
-    width: 30%;
-    height: 30%;
-}
-
-
-/* footer styling section */
+}/* footer styling section */
 footer {
     background-color: beige;
 }
