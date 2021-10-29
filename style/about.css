@@ -35,19 +35,17 @@ html {
 body {
     font-size: 1.8rem;
     background-color: gainsboro;
-    color: rgba(0, 0, 0, 0.644);
+    color: rosybrown;
     line-height: 1.5;
     font-family: 'Roboto Condensed', sans-serif;
 }
 h1 {
-    color: rosybrown;
     font-size: 6rem;
 }
 button {
     font-size: 1.6rem;
     padding: 2% 4%;
 }
-
 /* header section styling*/
 nav {
     background-color: beige;
@@ -74,63 +72,34 @@ nav {
     color: white;
     background-color: rosybrown;
 }
-h2 {
+h1 {
     font-size: 6rem;
-}
-
-/*top section styling*/
-.title {
-    display: flex;
-    flex-direction: column;
-    background-image: url("https://picsum.photos/536/354");
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    height: 90vh;
-    background-position: bottom;
-    justify-content: center;
     text-align: center;
 }
-.title a {
-    text-decoration: none;
-}
-.name {
-    display: flex;
-    margin-top: -4%;
-    width: 90%;
-    margin-left: 18%;
-}
-.my-projects {
-    display: flex;
-    justify-content: center;
+p {
     align-items: center;
-    align-content: center;
+    text-align: center;
+}
+h2 {
+    text-align: center;
     font-size: 4rem;
-    height: 10%;
-    width: 15%;
-    border-radius: 5%; 
-    margin-left: 43%;
-    margin-top: -3%;
-    background-color: rosybrown;
 }
-.my-projects:hover {
-    background-color: palevioletred;
-    transition: 2s;
+ul {
+    text-align: center;
 }
-/* images styling section */
-.parent {
+
+/* image styling section */
+.photos {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    padding: 1%;
-    
+    margin: 0 auto;
+    padding: 10px;
 }
 .pic {
     width: 30%;
-    height: 20%;
+    height: 30%;
 }
+
 
 /* footer styling section */
 footer {
