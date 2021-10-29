@@ -35,19 +35,17 @@ html {
 body {
     font-size: 1.8rem;
     background-color: gainsboro;
-    color: rgba(0, 0, 0, 0.644);
+    color: rosybrown;
     line-height: 1.5;
     font-family: 'Roboto Condensed', sans-serif;
 }
 h1 {
-    color: rosybrown;
     font-size: 6rem;
 }
 button {
     font-size: 1.6rem;
     padding: 2% 4%;
 }
-
 /* header section styling*/
 nav {
     background-color: beige;
@@ -56,6 +54,9 @@ nav {
     width: 100%;
     top: 0
     z-index: 999%;
+}
+.links a {
+    text-decoration: none;
 }
 .name {
     width: 50%;
@@ -66,9 +67,6 @@ nav {
     justify-content: center;
     align-items: center;
 }
-.links a {
-    text-decoration: none;
-}
 .about, .contact, .projects, .home {
     text-align: center;
     width: 10%;
@@ -77,63 +75,63 @@ nav {
     color: white;
     background-color: rosybrown;
 }
-h2 {
+h1 {
     font-size: 6rem;
-}
-
-/*top section styling*/
-.title {
-    display: flex;
-    flex-direction: column;
-    background-image: url("https://picsum.photos/536/354");
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    height: 90vh;
-    background-position: bottom;
-    justify-content: center;
     text-align: center;
 }
-.title a {
-    text-decoration: none;
+p {
+    align-items: center;
+    text-align: center;
 }
-.name {
+h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+ul {
+    text-align: center;
+}
+
+/* contact me section styling */
+.container {
     display: flex;
-    margin-top: -4%;
-    width: 90%;
-    margin-left: 18%;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
 }
-.my-projects {
+.in-touch {
+    width: 30%;
+    padding: 5%;
+}
+.find-me {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    font-size: 4rem;
-    height: 10%;
-    width: 15%;
-    border-radius: 5%; 
-    margin-left: 43%;
-    margin-top: -3%;
-    background-color: rosybrown;
+    margin: auto;
+    margin-top: 5%;
 }
-.my-projects:hover {
-    background-color: palevioletred;
+.find-me a:hover {
+    color: rosybrown;
+    background: gainsboro;
     transition: 2s;
 }
-/* images styling section */
-.parent {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.link {
+    display: inline-flex;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
-    padding: 1%;
-    
+    font-size: 2rem;
 }
-.pic {
+.linkOne, .linkTwo, .linkThree, .linkFour {
+    background-color: rosybrown;
+    padding: 5%;
+    margin: auto;
+    border-radius: 5%;
     width: 30%;
-    height: 20%;
+    height: 30%;
+    text-decoration: none;
 }
+
 
 /* footer styling section */
 footer {
