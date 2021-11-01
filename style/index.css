@@ -97,7 +97,7 @@ p, h2, li, h1 {
 }
 
 /*top section styling*/
-.title {
+div.title {
     display: flex;
     flex-direction: column;
     background-image: url("https://picsum.photos/536/354");
@@ -105,11 +105,10 @@ p, h2, li, h1 {
     background-size:contain;
     background-position: center;
     height: 90vh;
-    background-position: bottom;
     justify-content: center;
     text-align: center;
 }
-.title a {
+div.title a {
     text-decoration: none;
 }
 div.name {
@@ -257,6 +256,10 @@ a.fa {
 
 /* phone view query */
 @media (max-width:500px){
+div.title {
+    background-image: none;
+    background-color: gainsboro;
+}
 nav h1 {
     font-size: 2rem;
     width: 100%;
@@ -270,5 +273,13 @@ a.projects-btn {
 }
 div.in-touch {
     width: 60%;
+}
+a.home, a.about, a.projects, a.contact {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 1.8rem;
 }
 }
